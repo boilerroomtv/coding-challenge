@@ -9,8 +9,19 @@ const sets = [
     views: 8065498,
     title: 'Honey Dijon Boiler Room x Sugar Mountain 2018 DJ Set',
     youtubeId: 'm_qewI-1cEs'
-  }
-  // Add more of your favourite sets here
+  },
+  {
+    date: 1628118000,
+    views: 182551,
+    title: 'Yung Singh | BR London: Yung Singh Pres. Daytimers',
+    youtubeId: 'kSpRpBDrIFM'
+  },
+  {
+    date: 1628118000,
+    views: 9055,
+    title: 'Yung Singh | BR London: Yung Singh Pres. Daytimers',
+    youtubeId: 'e_iD2OeO1iY'
+  },
 ]
 
 const typeDefs = gql`
