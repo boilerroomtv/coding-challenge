@@ -1,6 +1,6 @@
 # Boiler Room Coding Challenge
 
-
+The test is comprised of two small apps, a web app (the client) and an Apollo Server (the server). The test is split into two parts: completing a GraphQL server endpoint that returns some JSON about some Boiler Room sets, then using the endpoint in a web app to render a list view of sets.
 
 ## Server
 - complete the sets resolver so it works with both arguments using `filterSets` and `sortSets`
@@ -16,7 +16,7 @@
 - install and use `moment-js` as a dependency to render dates in a pretty format
 - render a YouTube video embed for each set using the `youtubeId` field
 - make it look presentable, use [boilerroom.tv](https://boilerroom.tv/) as a reference
-- feel free to add 
+- feel free to get creative if you've got time
 
 ## Server & Client
 - ensure code is formatted properly using `yarn test` in both projects, this will run the tests and also eslint (we're using [standard style](https://github.com/standard/eslint-config-standard))

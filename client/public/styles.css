@@ -1,0 +1,19 @@
+html {
+  background: black;
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.8em;
+  font-size: 14px;
+}
+
+.Application {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.Logo {
+  margin: 20px auto;
+  width: 80px;
+  height: 80px;
+  display: block;
+}
