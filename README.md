@@ -4,6 +4,8 @@ The test is comprised of two small apps, a web app (the client) and an Apollo Se
 
 Both apps have a README.md in their respective folders with information about how to get started.
 
+You'll need installed [node 14.18.0](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/).
+
 ## Server
 
 The server is a simple GraphQL [Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/) with one resolver returning JSON containing 3x Boiler Room sets. Using this resolver we want to be able to filter the sets by their title, and sort them based on fields of your choice (e.g. views, A-Z).
