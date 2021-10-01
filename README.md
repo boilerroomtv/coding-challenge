@@ -12,10 +12,10 @@ The server is a simple GraphQL [Apollo Server](https://www.apollographql.com/doc
 
 Tasks:
 - complete the GraphQL schema for the `Set` type so all the set fields are available
-- complete the sets resolver so it works with both arguments using `filterSets` and `sortSets`
-- complete `filterSets.js` filter sets based on the set title
+- complete the sets resolver so it works with both arguments using `filterSetsByTitle` and `sortSets`
+- complete `filterSetsByTitle.js` filter sets based on the set title
 - complete `sortBy.js` and decide on some `sortBy` options for sorting sets based on fields available in the `sets` array
-- add unit tests for the filter and sort functionality in `filterSets.test.js` and `sortSets.test.js`
+- add unit tests for the filter and sort functionality in `filterSetsByTitle.test.js` and `sortSets.test.js`
 - ensure code is formatted correctly using `yarn lint`
 
 ## Client

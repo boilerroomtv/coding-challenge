@@ -3,29 +3,29 @@ import { gql, useQuery } from '@apollo/client'
 import PropTypes from 'prop-types'
 
 export default function ListView () {
-  const [filterBy, setFilterBy] = useState('')
+  const [filterByTitle, setFilterByTitle] = useState('')
   const [sortBy, setSortBy] = useState('')
 
   return (
     <div>
-      <Filter filterBy={filterBy} setFilterBy={setFilterBy} />
-      <Sort sortBy={sortBy} setFilterBy={setSortBy} />
-      <List sortBy={sortBy} filterBy={filterBy} />
+      <Filter filterByTitle={filterByTitle} setFilterByTitle={setFilterByTitle} />
+      <Sort sortBy={sortBy} setFilterByTitle={setSortBy} />
+      <List sortBy={sortBy} filterByTitle={filterByTitle} />
     </div>
   )
 }
 
 // Filter Component
 
-const Filter = ({ filterBy, setFilterBy }) =>
+const Filter = ({ filterByTitle, setFilterByTitle }) =>
   <input
-    onChange={e => setFilterBy(e.target.value)}
-    value={filterBy}
+    onChange={e => setFilterByTitle(e.target.value)}
+    value={filterByTitle}
   />
 
 Filter.propTypes = {
-  filterBy: PropTypes.string.isRequired,
-  setFilterBy: PropTypes.func.isRequired
+  filterByTitle: PropTypes.string.isRequired,
+  setFilterByTitle: PropTypes.func.isRequired
 }
 
 // Sort Component
@@ -43,14 +43,14 @@ Sort.propTypes = {
 // List Component
 
 const GET_SETS = gql`
-  query GetSets($filterBy: String, $sortBy: String) {
-    sets(filterBy: $filterBy, sortBy: $sortBy) {
+  query GetSets($filterByTitle: String, $sortBy: String) {
+    sets(filterByTitle: $filterByTitle, sortBy: $sortBy) {
       id
     }
   }
 `
 
-const List = ({ sortBy, filterBy }) => {
+const List = ({ sortBy, filterByTitle }) => {
   const { loading, data } = useQuery(GET_SETS, { variables: {} })
 
   if (loading) return null
@@ -62,5 +62,5 @@ const List = ({ sortBy, filterBy }) => {
 
 List.propTypes = {
   sortBy: PropTypes.string.isRequired,
-  filterBy: PropTypes.string.isRequired
+  filterByTitle: PropTypes.string.isRequired
 }

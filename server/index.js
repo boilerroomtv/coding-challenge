@@ -1,7 +1,7 @@
 const { ApolloServer, gql } = require('apollo-server')
 
 const sortSets = require('./lib/sortSets')
-const filterSets = require('./lib/filterSets')
+const filterSetsByTitle = require('./lib/filterSetsByTitle')
 
 const sets = [
   {
@@ -33,7 +33,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    sets(filterBy: String, sortBy: String): [Set]
+    sets(filterByTitle: String, sortBy: String): [Set]
   }
 `;
 
@@ -41,7 +41,7 @@ const resolvers = {
   Query: {
     sets: (parent, args) => {
       console.log(args)
-      // Use filterSets and sortSets here
+      // Use filterSetsByTitle and sortSets here
       return sets
     },
   },
