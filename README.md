@@ -29,7 +29,7 @@ Tasks:
 - create a filter text input
 - create a sort by selector with the `sortBy` options you've made available in the server (this can be a dropdown/toggle/radio or another UI element of your choosing)
 - create a list view of sets
-- install and use `moment-js` as a dependency to render dates in a pretty format in the `List` component
+- install and use `moment-js` as a dependency to render dates in a pretty format in the `List` component (currently they are in UNIX timestamp format)
 - render a YouTube video embed for each set using the `youtubeId` field
 - feel free to get creative if you've got time
 - ensure code is formatted properly using `yarn lint`

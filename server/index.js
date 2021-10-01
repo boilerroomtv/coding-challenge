@@ -20,10 +20,10 @@ const sets = [
   },
   {
     id: 3,
-    date: 1628118000,
-    views: 9055,
-    title: 'Yung Singh | BR London: Yung Singh Pres. Daytimers',
-    youtubeId: 'e_iD2OeO1iY'
+    date: 1537570800,
+    views: 488649,
+    title: 'Carista | Boiler Room x Dekmantel Festival 2018',
+    youtubeId: 'GwDWGV9yuzA'
   },
 ]
 
