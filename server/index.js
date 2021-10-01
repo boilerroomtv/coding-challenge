@@ -39,7 +39,8 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    sets: (args) => {
+    sets: (parent, args) => {
+      console.log(args)
       // Use filterSets and sortSets here
       return sets
     },

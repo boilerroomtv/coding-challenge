@@ -36,5 +36,5 @@ Tasks:
 - make it look presentable, use [boilerroom.tv](https://boilerroom.tv/) as a reference
 
 ## Delivery
-- this folder is a git repo, commit your changes to it locally before zipping it up and sending to us (we want to see your working)
+- this folder is a git repo, commit your changes to it locally before zipping it up and sending to us (we would like to see your working)
 - make a note of any assumptions you've made during the build
