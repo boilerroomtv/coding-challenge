@@ -4,6 +4,6 @@ This is an [Apollo GraphQL server](https://www.apollographql.com/docs/apollo-ser
 
 Install dependencies with `yarn` (or `npm`).
 
-To develop run `yarn dev`, this will watch for changes and restart the application when you make them using [nodemon](https://github.com/remy/nodemon).
+To run the app run `yarn start`, this will watch for changes and restart the application when you make them using [nodemon](https://github.com/remy/nodemon).
 
-To start the server run `yarn start`.
+The server runs at `http://localhost:4000/`

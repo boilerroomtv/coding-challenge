@@ -3,8 +3,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint \"**/*.js\"",
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "nodemon index.js",
     "test": "jest && yarn run lint"
   },
   "dependencies": {

@@ -4,6 +4,6 @@ This is a simple React app built using Webpack.
 
 Install dependencies with `yarn`.
 
-To develop run `yarn dev`, this will watch for changes and restart the application when you make them using [nodemon](https://github.com/remy/nodemon).
+To run the app run `yarn start`, this will watch for changes in your code and reload the app.
 
-To build the app run `yarn build`.
+The client runs at `http://localhost:9000/`
