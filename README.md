@@ -1,4 +1,4 @@
-# Boiler Room Coding Challenge
+# Boiler Room JavaScript Coding Challenge
 
 The test is comprised of two small apps, a web app (the client) and an Apollo Server (the server). The test is split into two parts: completing a GraphQL server endpoint that returns some JSON about some Boiler Room sets, then using the endpoint in a web app to render a list view of sets.
 
